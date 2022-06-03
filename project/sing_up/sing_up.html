@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Login and Registration Form in HTML | CodingNepal</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+    <style>
+      body {
+        background-image: url('images.jfif');
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .card{
+        position: relative;
+        background: rgba(0,0,0,0.4);
+      }
+      </style>
+   </head>
+   <body>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-9 col-md-7 col-lg-8 mx-auto">
+          <div class="card card-signin my-3">
+            <div class="card-body" style="border-radius: 5px;">
+              <h5 class="card-title text-center" style="color: white;">Sign Up</h5>
+              <form class="form-signin">
+                <div class="form-label-group">
+                    <label for="inputText" style="color: white;">Enter your first name</label>
+                    <input type="text" id="inputText" class="form-control" placeholder="First name" required autofocus>
+                </div>
+                <div class="form-label-group">
+                    <label for="inputText" style="color: white;">Enter your last name</label>
+                    <input type="text" id="inputText" class="form-control" placeholder="Last name" required>
+                </div>
+
+                <div class="form-label-group">
+                    <label for="inputAdress" style="color: white;">Enter your Adress</label>
+                    <input type="text" id="inputAdress" class="form-control" placeholder="Adress" required>
+                </div>
+
+                <div class="form-label-group">
+                    <label for="inputEmail" style="color: white;">Enter your Email</label>
+                    <input type="email" id="inputEmail" class="form-control" placeholder="Email" required>
+                </div>
+  
+                <div class="form-label-group">
+                    <label for="inputPassword" style="color: white;">Password</label>
+                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                </div>
+
+                <div class="form-label-group">
+                    <label for="inputPassword" style="color: white;">Re Enter Password</label>
+                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                </div><br>
+                <div class="col-sm-9 col-md-7 col-lg-6 mx-auto">
+                    <button class="btn btn-lg btn-block text-uppercase" type="submit" style="border-radius: 30px; background: rgb(106, 150, 95); color: white;">Sing Up</button><br>
+                </div>
+                
+
+
+                <div style="padding-bottom: 30px;"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
